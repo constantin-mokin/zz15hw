@@ -7,3 +7,4 @@ with open('test.txt', 'w') as my_file:
         my_file.write(a + 'd\n')
 #input
 #while True
+my_file.close()
