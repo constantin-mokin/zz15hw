@@ -16,7 +16,7 @@ class Matrix:
         self.data = data
 
 #то что ниже сложно для понимания
-    def __str__(self):
-        return '\n'.join('\t'.join(map(str, row))
-                for row in self.data)
+    # def __str__(self):
+    #     return '\n'.join('\t'.join(map(str, row))
+    #             for row in self.data)
 
