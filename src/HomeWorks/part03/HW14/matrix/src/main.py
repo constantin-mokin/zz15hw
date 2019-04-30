@@ -4,8 +4,7 @@ from matrix_utils.matrix_funcs import (summ_matrix, get_max_elem, get_min_elem)
 
 def main():
 
-    matrix = Matrix
-    print(matrix)
+    matrix = Matrix()
 
     summ = summ_matrix
     print(summ)
